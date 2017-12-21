@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace FFMPEG_Designer
 {
-    public partial class Form1 : Form
+    public partial class designer : Form
     {
-        public Form1()
+        public designer()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace FFMPEG_Designer
 {
-    partial class Form1
+    partial class designer
     {
         /// <summary>
         /// Required designer variable.
