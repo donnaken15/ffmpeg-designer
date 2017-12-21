@@ -2,15 +2,8 @@
 {
     partial class designer
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,18 +15,62 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(designer));
+            this.menuBar = new System.Windows.Forms.MenuStrip();
+            this.filebar = new System.Windows.Forms.ToolStripMenuItem();
+            this.editbar = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuBar.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuBar
+            // 
+            this.menuBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.filebar,
+            this.editbar});
+            this.menuBar.Location = new System.Drawing.Point(0, 0);
+            this.menuBar.Name = "menuBar";
+            this.menuBar.Size = new System.Drawing.Size(494, 27);
+            this.menuBar.TabIndex = 0;
+            this.menuBar.Text = "Menu Bar";
+            // 
+            // filebar
+            // 
+            this.filebar.Name = "filebar";
+            this.filebar.Size = new System.Drawing.Size(43, 23);
+            this.filebar.Text = "File";
+            // 
+            // editbar
+            // 
+            this.editbar.Name = "editbar";
+            this.editbar.Size = new System.Drawing.Size(45, 23);
+            this.editbar.Text = "Edit";
+            // 
+            // designer
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(494, 399);
+            this.Controls.Add(this.menuBar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuBar;
+            this.Name = "designer";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FFMPEG Designer";
+            this.menuBar.ResumeLayout(false);
+            this.menuBar.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.MenuStrip menuBar;
+        private System.Windows.Forms.ToolStripMenuItem filebar;
+        private System.Windows.Forms.ToolStripMenuItem editbar;
     }
 }
 

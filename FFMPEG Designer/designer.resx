@@ -112,9 +112,30 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="menuBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8A/////////////////////4iIiIiIiIiIiIiIiIiIiIjwD//////wD///////////B3CIiIiI
+        B3CIiIiIiIiIiA+HB///cHdw//////////+A+HAAAAd3DwAAAIiIiIiI/w+Hd3d3cPB3d3cP/////4AA
+        AAAAAAAPiIiHCIiIiIgHd3d3d3d3D///9w////AAD4iIiIiIiHAAAACIiIgHcA+JmqzIh3d3d3D/8AAA
+        d3APiZqsyI+IiIeAAAd3cHiAD4iIiIiPiIiHgHcHd3CIgA+HeId4j4iIh4B3CIiAiIAPj3iPeI////eA
+        iAiIgIiAD4iIiIiIiHeIgP8IiICIgA+IiIiIiIAHeID/D//wiIAPh3iHeIiAcHdwAA//8PiAD494j3iI
+        gHcAAA/wAAD/8A+IiIiIiICHd3dwiIiID/AP///////wiIiIcP////AAcAAAAAAAAPiIiHCIiIiIiPD3
+        D/////D/AAAP//////+ID3AAAAiA8IiIiIiIiIiI//D4iIiA8A////////////f/AAAAB/f3f/d/d/9/
+        9//3//f39//39/f/f39/f/f/9//39/f/9/f39/9/f3/3//f39/f/d/d/d/d/93d3d3/3f3f/////////
+        ////f/f/9//39/////////////f3//////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
 </root>
